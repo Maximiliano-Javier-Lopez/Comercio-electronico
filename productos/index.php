@@ -8,38 +8,8 @@
     <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">MaxiElectroShop</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Productos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Ofertas</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="cart.html">Carrito <span id="cart-count" class="badge badge-light">0</span></a>
-                </li>
-            </ul>
-        </div>
-    </nav>
 
-    <header class="jumbotron text-center">
-        <h1 class="display-4">Bienvenidos a MAXIELECTRO</h1>
-        <p class="lead">Los mejores productos electrónicos a los mejores precios.</p>
-    </header>
-
-    <div class="container">
+<div class="container">
         <div class="row">
             <!-- Product 1 -->
             <div class="col-md-4">
@@ -85,10 +55,6 @@
             </div>
         </div>
     </div>
-
-    <footer class="text-center bg-dark text-white py-4">
-        <p>© 2024 MaxiElectro. Todos los derechos reservados.</p>
-    </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
