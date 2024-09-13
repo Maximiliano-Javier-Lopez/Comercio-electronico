@@ -1,0 +1,140 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.jumbotron {
+    background-color: #343a40;
+    color: white;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+}
+
+.jumbotron .display-4 {
+    font-weight: bold;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.9em;
+    color: #6c757d;
+}
+
+.price {
+    font-size: 1.5em;
+    color: #28a745;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 1rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+.btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-primary:hover {
+    background-color: #218838;
+    border-color: #218838;
+}
+
+/* Estilos para el carrito */
+#cart-items {
+    border-top: 2px solid #dee2e6;
+    margin-top: 2rem;
+    padding-top: 1rem;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.cart-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.cart-item-details {
+    flex: 1;
+    margin-left: 1rem;
+}
+
+.cart-item-title {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.cart-item-price {
+    font-size: 1.1em;
+    color: #28a745;
+    font-weight: bold;
+}
+
+.cart-item-quantity {
+    font-size: 1em;
+    margin-left: 1rem;
+}
+
+/* Estilos para la página de pago */
+.payment-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: white;
+    border: 1px solid #dee2e6;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.payment-form h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.payment-form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.payment-form .btn-primary {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1.25em;
+    font-weight: bold;
+}
